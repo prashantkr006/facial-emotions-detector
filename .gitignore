@@ -1,0 +1,66 @@
+# =========================
+# Python cache
+# =========================
+__pycache__/
+*.py[cod]
+
+# =========================
+# Virtual environments
+# =========================
+.venv/
+venv/
+env/
+
+# =========================
+# TensorFlow / Model files
+# =========================
+checkpoints/
+*.ckpt
+*.h5
+*.hdf5
+*.pb
+*.tflite
+
+# Ignore saved models inside model folder (optional)
+model/*.h5
+model/*.pb
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+events.out.tfevents.*
+
+# =========================
+# Backup files
+# =========================
+*.bak
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# IDE
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# Environment variables
+# =========================
+.env
+
+# =========================
+# Data (if you add later)
+# =========================
+data/
+datasets/
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
